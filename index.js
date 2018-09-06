@@ -8,3 +8,6 @@ var kittens = ["Milo" , "Otis" , "Garfield"]//
   function destructivelyRemoveLastKitten() {
       kittens.pop(name);
 }
+  function destructivelyRemoveFirstKitten() {
+      kittens.shift();
+}
