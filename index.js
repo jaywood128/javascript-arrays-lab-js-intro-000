@@ -17,5 +17,6 @@ var kittens = ["Milo" , "Otis" , "Garfield"]//
  function prependKitten(name) {
    return [name, ...kittens]
  }
- function removeFirstKitten() { 
+ function removeFirstKitten() {
      kittens.splice(1)}
+}
