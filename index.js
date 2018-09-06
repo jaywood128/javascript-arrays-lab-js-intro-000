@@ -18,5 +18,5 @@ var kittens = ["Milo" , "Otis" , "Garfield"]//
    return [name, ...kittens]
  }
  function removeFirstKitten() {
-     return kittens.slice(1)
+   return kittens.slice(1)
 }
